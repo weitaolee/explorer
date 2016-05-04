@@ -56,12 +56,12 @@
   "confirmations": 40,
 
   // language settings
-  "locale": "locale/en.json",
+  "locale": "locale/zh.json",
 
   // menu settings
   "display": {
     "api": false,
-    "markets": false,
+    "markets": true,
     "richlist": true,
     "twitter": false,
     "search": true

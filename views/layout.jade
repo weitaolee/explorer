@@ -109,17 +109,12 @@ html
                   a.navbar-link(href='/reward')
                     span.fa.fa-star
                     span.menu-text #{settings.locale.menu_reward}
-            if settings.display.markets == true
-              if active == 'markets'
-                li.active
-                  a.navbar-link.loading(href='/markets/#{settings.markets.default}') 
-                    span.fa.fa-line-chart
-                    span.menu-text #{settings.locale.menu_markets}
-              else
-                li
-                  a.navbar-link.loading(href='/markets/#{settings.markets.default}') 
-                    span.fa.fa-line-chart
-                    span.menu-text #{settings.locale.menu_markets}
+           
+            li.active
+                a.navbar-link.loading(href='www.19800.com') 
+                  span.fa.fa-line-chart
+                  span.menu-text #{settings.locale.menu_markets}
+            
             if settings.display.richlist == true
               if active == 'richlist'
                 li.active
@@ -175,12 +170,6 @@ html
               strong #{settings.locale.ex_supply} (#{settings.symbol})
             .panel-body
               label#supply -
-        .col-md-2
-          .panel.panel-default.hidden-sm.hidden-xs
-            .panel-heading
-              strong #{settings.markets.exchange} Price
-            .panel-body
-              label#lastPrice -
       .row.text-center(style='margin-top:10px;margin-bottom:20px;')
         form.form-inline(method='post', action='/search')      
           #index-search.form-group
