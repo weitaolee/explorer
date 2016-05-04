@@ -33,14 +33,14 @@
     "tx_nonstandard": "NONSTANDARD TX",
 
     // block view
-    "block_previous": "Previous",
-    "block_next": "Next",
+    "block_previous": "上一页",
+    "block_next": "下一页",
     "block_title": "Block Details",
     "block_genesis": "GENESIS",
 
     // global
     "difficulty": "难度",
-    "network": "Network",
+    "network": "全网权利",
     "height": "Height",
     "timestamp": "Timestamp",
     "size": "Size",
